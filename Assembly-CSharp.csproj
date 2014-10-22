@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Imagenes\menu\menu.cs" />
      <Compile Include="Assets\core_kinect\AvatarsDemo\PointMan\PointManController.cs" />
      <Compile Include="Assets\core_kinect\GesturesDemo\Scripts\GesturesDemoScript.cs" />
      <Compile Include="Assets\core_kinect\KinectScripts\AvatarController.cs" />
@@ -65,14 +64,18 @@
      <Compile Include="Assets\core_kinect\KinectScripts\KinectGestures.cs" />
      <Compile Include="Assets\core_kinect\KinectScripts\KinectManager.cs" />
      <Compile Include="Assets\core_kinect\KinectScripts\KinectWrapper.cs" />
+     <Compile Include="Assets\misScripts\creditos\creditos.cs" />
      <Compile Include="Assets\misScripts\ejer 4\control_movimiento_e4.cs" />
      <Compile Include="Assets\misScripts\ejer 4\posicionar_4.cs" />
+     <Compile Include="Assets\misScripts\ejer 5\control_movimiento_e5.cs" />
+     <Compile Include="Assets\misScripts\ejer 5\ubicar_imagenes.cs" />
      <Compile Include="Assets\misScripts\ejer_pag11\miGestureDemoejer1pag11.cs" />
      <Compile Include="Assets\misScripts\ejer_pag11\posicionar.cs" />
      <Compile Include="Assets\misScripts\ejer_pag21\miGestureDemoejerpag21.cs" />
      <Compile Include="Assets\misScripts\ejer_pag21\posicionarpag21.cs" />
      <Compile Include="Assets\misScripts\ejer_pag27\controlMovimiento.cs" />
      <Compile Include="Assets\misScripts\ejer_pag27\posicionarB.cs" />
+     <Compile Include="Assets\misScripts\menu\menu.cs" />
      <Compile Include="Assets\misScripts\scripts_escena_1a\miGestureDemo.cs" />
      <Compile Include="Assets\misScripts\scripts_escena_1a\posicionarImagenes.cs" />
      <Compile Include="Assets\misScripts\scripts_escena_1c\miGestureDemo1c.cs" />

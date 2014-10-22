@@ -270,6 +270,8 @@ public class miGestureDemo : MonoBehaviour
 
 						ObjetoSeleccioado2 = "Planta y Matera";
 						ObjetoSeleccioado  = "BIEN HECHO";
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 					else{
 						//ObjetoSeleccioado2 = "Esperando";
@@ -288,6 +290,8 @@ public class miGestureDemo : MonoBehaviour
 						
 						ObjetoSeleccioado2 = "Cascanueces y Nuez";
 						ObjetoSeleccioado  = "BIEN HECHO";
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 					else{
 						//ObjetoSeleccioado2 = "Esperando";
@@ -306,6 +310,8 @@ public class miGestureDemo : MonoBehaviour
 						
 						ObjetoSeleccioado2 = "Puntilla y Martillo";
 						ObjetoSeleccioado  = "BIEN HECHO";
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 					else{
 						//ObjetoSeleccioado2 = "Esperando";
@@ -324,6 +330,8 @@ public class miGestureDemo : MonoBehaviour
 						
 						ObjetoSeleccioado2 = "Martillo y Puntilla";
 						ObjetoSeleccioado  = "BIEN HECHO";
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 					else{
 						//ObjetoSeleccioado2 = "Esperando";
@@ -342,6 +350,9 @@ public class miGestureDemo : MonoBehaviour
 						
 						ObjetoSeleccioado2 = "Nuez y Cascanueces";
 						ObjetoSeleccioado  = "BIEN HECHO";
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
+
 					}
 					else{
 						//ObjetoSeleccioado2 = "Esperando";
@@ -360,6 +371,8 @@ public class miGestureDemo : MonoBehaviour
 						
 						ObjetoSeleccioado2 = "Matera y PLanta";
 						ObjetoSeleccioado  = "BIEN HECHO";
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 					else{
 						//ObjetoSeleccioado2 = "Esperando";

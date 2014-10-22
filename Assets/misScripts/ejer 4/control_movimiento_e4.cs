@@ -62,6 +62,8 @@ public class control_movimiento_e4 : MonoBehaviour {
 						ObjetoSeleccionado = "MONTAÑA";
 						GameObject dif3 = GameObject.Find ("dif3");
 						dif3.guiTexture.enabled = true;
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 				}
 				if(screenNormalPos.x > 0.6f && screenNormalPos.x < 0.8f)
@@ -71,6 +73,8 @@ public class control_movimiento_e4 : MonoBehaviour {
 						ObjetoSeleccionado = "PUNTILLA";
 						GameObject dif1 = GameObject.Find ("dif1");
 						dif1.guiTexture.enabled = true;
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 				}
 				if(screenNormalPos.x > 0.5f && screenNormalPos.x < 0.8f)
@@ -80,6 +84,8 @@ public class control_movimiento_e4 : MonoBehaviour {
 						ObjetoSeleccionado = "HOJA";
 						GameObject dif2 = GameObject.Find ("dif2");
 						dif2.guiTexture.enabled = true;
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 				}
 				if(screenNormalPos.x > 0.6f && screenNormalPos.x < 0.8f)
@@ -89,6 +95,8 @@ public class control_movimiento_e4 : MonoBehaviour {
 						ObjetoSeleccionado = "PINO";
 						GameObject dif4 = GameObject.Find ("dif4");
 						dif4.guiTexture.enabled = true;
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 				}
 				if(screenNormalPos.x > 0.5f && screenNormalPos.x < 0.7f)
@@ -98,6 +106,8 @@ public class control_movimiento_e4 : MonoBehaviour {
 						ObjetoSeleccionado = "SOMBRILLA";
 						GameObject dif5 = GameObject.Find ("dif5");
 						dif5.guiTexture.enabled = true;
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 				}
 				if(screenNormalPos.x > 0.8f && screenNormalPos.x < 0.95f)
@@ -107,6 +117,8 @@ public class control_movimiento_e4 : MonoBehaviour {
 						ObjetoSeleccionado = "ARBOL";
 						GameObject dif6 = GameObject.Find ("dif6");
 						dif6.guiTexture.enabled = true;
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 				}
 				

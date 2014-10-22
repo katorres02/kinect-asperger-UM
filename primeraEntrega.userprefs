@@ -1,13 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Imagenes\menu\menu.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\misScripts\menu\menu.cs">
     <Files>
-      <File FileName="Assets\misScripts\ejer 4\posicionar_4.cs" Line="42" Column="1" />
-      <File FileName="Assets\Imagenes\menu\menu.cs" Line="19" Column="32" />
-      <File FileName="Assets\misScripts\ejer 4\control_movimiento_e4.cs" Line="124" Column="45" />
-      <File FileName="Assets\misScripts\ejer_pag21\miGestureDemoejerpag21.cs" Line="91" Column="45" />
-      <File FileName="Assets\misScripts\scripts_escena_1a\miGestureDemo.cs" Line="383" Column="45" />
-      <File FileName="Assets\misScripts\ejer_pag27\controlMovimiento.cs" Line="106" Column="4" />
+      <File FileName="Assets\misScripts\ejer 4\posicionar_4.cs" Line="23" Column="32" />
+      <File FileName="Assets\misScripts\ejer 4\control_movimiento_e4.cs" Line="121" Column="27" />
+      <File FileName="Assets\misScripts\ejer_pag21\miGestureDemoejerpag21.cs" Line="82" Column="27" />
+      <File FileName="Assets\misScripts\scripts_escena_1a\miGestureDemo.cs" Line="353" Column="7" />
+      <File FileName="Assets\misScripts\ejer_pag27\controlMovimiento.cs" Line="87" Column="1" />
+      <File FileName="Assets\misScripts\ejer 5\ubicar_imagenes.cs" Line="22" Column="62" />
+      <File FileName="Assets\misScripts\ejer 5\control_movimiento_e5.cs" Line="121" Column="27" />
+      <File FileName="Assets\misScripts\scripts_escena_1c\miGestureDemo1c.cs" Line="103" Column="27" />
+      <File FileName="Assets\misScripts\ejer_pag11\miGestureDemoejer1pag11.cs" Line="1" Column="1" />
+      <File FileName="Assets\misScripts\menu\menu.cs" Line="48" Column="35" />
+      <File FileName="Assets\misScripts\creditos\creditos.cs" Line="26" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

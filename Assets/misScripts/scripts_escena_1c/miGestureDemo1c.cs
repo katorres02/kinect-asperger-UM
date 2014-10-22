@@ -99,6 +99,8 @@ public class miGestureDemo1c : MonoBehaviour
 						// Radio
 						imagenes.transform.GetChild(7).gameObject.guiTexture.texture = imagenesX[6];
 						ObjetoSeleccionado = "Radio";
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 				}
 				if(screenNormalPos.x > 0.6f && screenNormalPos.x < 0.75f)
@@ -138,6 +140,12 @@ public class miGestureDemo1c : MonoBehaviour
 	
 	void OnGUI()
 	{
+		if (GUI.Button (new Rect (10, 10, 100, 20), "Menu"))
+		{
+			DestroyImmediate(Camera.main.gameObject);
+			Application.LoadLevel ("menu");
+		}
+
 		if(infoGUI != null && manager != null && KinectManager.IsKinectInitialized())
 		{
 			string sInfo = string.Empty;
@@ -159,8 +167,8 @@ public class miGestureDemo1c : MonoBehaviour
 			
 			infoGUI.guiText.text = sInfo;
 		}
-		
-		objSleccionadoText.guiText.text = ObjetoSeleccionado; 
+		if(objSleccionadoText != null)
+			objSleccionadoText.guiText.text = ObjetoSeleccionado; 
 	
 	}
 	

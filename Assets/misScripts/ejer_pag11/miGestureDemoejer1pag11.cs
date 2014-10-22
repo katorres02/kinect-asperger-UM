@@ -56,23 +56,25 @@ public class miGestureDemoejer1pag11 : MonoBehaviour {
 				screenNormalPos= manager.GetGestureScreenPos(userId, KinectWrapper.Gestures.Click);
 				//Debug.Log(screenNormalPos );
 				//ObjetoSeleccionado = ""+screenNormalPos.x;
-				if(screenNormalPos.x > 0.5f && screenNormalPos.x < 0.65f)
+				if(screenNormalPos.x > 0.75f && screenNormalPos.x < 1f)
 				{
-					if(screenNormalPos.y > 0.7f && screenNormalPos.y < 9f)
+					if(screenNormalPos.y > 0.7f && screenNormalPos.y < 1f)
 					{	
 						ObjetoSeleccionado = "Opcion 1 bien hecho";
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 				}
-				if(screenNormalPos.x > 0.5f && screenNormalPos.x < 0.65f)
+				if(screenNormalPos.x > 0.5f && screenNormalPos.x < 0.7f)
 				{
-					if(screenNormalPos.y > 0.45f && screenNormalPos.y < 0.6f)
+					if(screenNormalPos.y > 0.7f && screenNormalPos.y < 0.9f)
 					{
 						ObjetoSeleccionado = "Opcion 2";
 					}
 				}
-				if(screenNormalPos.x > 0.0f && screenNormalPos.x < 0.3f)
+				if(screenNormalPos.x > 0.8f && screenNormalPos.x < 1f)
 				{
-					if(screenNormalPos.y > 0.7f && screenNormalPos.y < 0.9f)
+					if(screenNormalPos.y > 0.4f && screenNormalPos.y < 0.6f)
 					{
 						ObjetoSeleccionado = "Opcion 3";
 					}
@@ -87,6 +89,11 @@ public class miGestureDemoejer1pag11 : MonoBehaviour {
 	
 	void OnGUI()
 	{
+		if (GUI.Button (new Rect (10, 10, 100, 20), "Menu"))
+		{
+			DestroyImmediate(Camera.main.gameObject);
+			Application.LoadLevel ("menu");
+		}
 		if(infoGUI != null && manager != null && KinectManager.IsKinectInitialized())
 		{
 			string sInfo = string.Empty;

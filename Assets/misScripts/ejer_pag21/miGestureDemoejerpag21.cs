@@ -15,6 +15,9 @@ public class miGestureDemoejerpag21 : MonoBehaviour {
 	
 	private string ObjetoSeleccionado 	= "Esperando";
 
+	public GUITexture nuevaPera;
+	public Texture2D nuevapera;
+
 	
 	void Awake() 
 	{
@@ -74,6 +77,9 @@ public class miGestureDemoejerpag21 : MonoBehaviour {
 					if(screenNormalPos.y > 0.7f && screenNormalPos.y < 0.9f)
 					{
 						ObjetoSeleccionado = "Pera, bien hecho";
+						nuevaPera.texture = nuevapera;
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 				}
 				

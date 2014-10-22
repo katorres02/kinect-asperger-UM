@@ -62,6 +62,8 @@ public class controlMovimiento : MonoBehaviour {
 						ObjetoSeleccionado = "OSO";
 						GameObject oso = GameObject.Find ("oso");
 						oso.guiTexture.enabled = true;
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 				}
 				if(screenNormalPos.x > 0.35f && screenNormalPos.x < 0.51f)
@@ -71,6 +73,8 @@ public class controlMovimiento : MonoBehaviour {
 						ObjetoSeleccionado = "Lagarto";
 						GameObject lagarto = GameObject.Find ("lagarto");
 						lagarto.guiTexture.enabled = true;
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 				}
 				if(screenNormalPos.x > 0.35f && screenNormalPos.x < 0.5f)
@@ -80,6 +84,8 @@ public class controlMovimiento : MonoBehaviour {
 						ObjetoSeleccionado = "Pajaro";
 						GameObject pajaro = GameObject.Find ("pajaro");
 						pajaro.guiTexture.enabled = true;
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 				}
 				if(screenNormalPos.x > 0.75f && screenNormalPos.x < 0.9f)
@@ -89,6 +95,8 @@ public class controlMovimiento : MonoBehaviour {
 						ObjetoSeleccionado = "Perro";
 						GameObject perro = GameObject.Find ("perro");
 						perro.guiTexture.enabled = true;
+						GameObject sonido = GameObject.Find ("sonido_seleccion");
+						sonido.audio.Play();
 					}
 				}
 				
